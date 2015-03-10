@@ -4,13 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.sbrinfo.tools.Builder;
-import com.sbrinfo.tools.impl.CockhorseBuilder;
 import com.sbrinfo.tools.impl.LinuxBuilder;
-import com.sbrinfo.tools.impl.VirusesBuiler;
+import com.sbrinfo.tools.impl.TrojanHorseBuilder;
+import com.sbrinfo.tools.impl.VirusBuiler;
 import com.sbrinfo.tools.impl.WindowsBuilder;
-
-import freemarker.template.Configuration;
-import freemarker.template.Template;
 /**
  * 
 * Filename: BuilderDocToolFactory.java  
@@ -39,8 +36,8 @@ public class BuilderDocToolFactory {
 	
 	private static Map<String, Builder> initFactory() {
 		builderMap = new HashMap<String, Builder>();
-		builderMap.put("1", new VirusesBuiler());
-		builderMap.put("2", new CockhorseBuilder());
+		builderMap.put("1", new VirusBuiler());
+		builderMap.put("2", new TrojanHorseBuilder());
 		builderMap.put("3", new LinuxBuilder());
 		builderMap.put("4", new WindowsBuilder());
 		return builderMap;

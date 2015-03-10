@@ -1912,7 +1912,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${osName}!</w:t>
+                  <w:t>${osName}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -1972,7 +1972,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${osVersion}!</w:t>
+                  <w:t>${osVersion}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2045,7 +2045,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${ipAddress}!</w:t>
+                  <w:t>${ipAddress}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2113,7 +2113,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${memory}!</w:t>
+                  <w:t>${memory}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2186,7 +2186,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${protocolVersion}!</w:t>
+                  <w:t>${protocolVersion}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2254,7 +2254,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${diskCapacity}!</w:t>
+                  <w:t>${diskCapacity}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2388,7 +2388,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${beginDate}!</w:t>
+                  <w:t>${beginDate}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2448,7 +2448,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${endDate}!</w:t>
+                  <w:t>${endDate}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2518,7 +2518,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${checkType}!</w:t>
+                  <w:t>${checkType}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2777,7 +2777,7 @@
                   <w:rPr>
                     <w:rFonts w:hint="fareast"/>
                   </w:rPr>
-                  <w:t>${account.name}!</w:t>
+                  <w:t>${account.userName}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2791,7 +2791,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${account.type}!</w:t>
+                  <w:t>${account.userType}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2805,7 +2805,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${account.checkResult}!</w:t>
+                  <w:t>${account.checkResult}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2820,7 +2820,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${account.suggest}!</w:t>
+                  <w:t>${account.suggest}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -3039,7 +3039,7 @@
               </w:p>
             </w:tc>
           </w:tr>
-          <#list serverInfo as server>
+          <#--<#list serverInfo as server>
           <w:tr wsp:rsidR="00DE3844" wsp:rsidTr="00BC6253">
             <w:tc>
               <w:tcPr>
@@ -3051,7 +3051,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${server.name}!</w:t>
+                  <w:t>${server.name}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -3065,7 +3065,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${server.port}!</w:t>
+                  <w:t>${server.port}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -3079,7 +3079,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${server.state}!</w:t>
+                  <w:t>${server.state}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -3093,7 +3093,7 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${server.checkResult}!</w:t>
+                  <w:t>${server.checkResult}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -3107,12 +3107,12 @@
                     <w:rFonts w:hint="fareast"/>
                     <wx:font wx:val="宋体"/>
                   </w:rPr>
-                  <w:t>${server.suggest}!</w:t>
+                  <w:t>${server.suggest}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
           </w:tr>
-         </#list>
+         </#list>-->
         </w:tbl>
         <w:p wsp:rsidR="006F08BC" wsp:rsidRDefault="006F08BC" wsp:rsidP="00B36025">
           <w:pPr>

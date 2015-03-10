@@ -1439,7 +1439,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${osName}!</w:t>
+                  <w:t>${osName}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -1499,7 +1499,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${ipAddress}!</w:t>
+                  <w:t>${ipAddress}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -1566,7 +1566,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${osVersion}!</w:t>
+                  <w:t>${osVersion}</w:t>
                 </w:r>
                 <w:proofErr w:type="spellEnd"/>
                 <w:r>
@@ -1717,7 +1717,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${beginDate}!</w:t>
+                  <w:t>${beginDate}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -1777,7 +1777,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${endDate}!</w:t>
+                  <w:t>${endDate}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -1847,7 +1847,7 @@
                     <w:color w:val="35478C"/>
                     <w:sz w:val="20"/>
                   </w:rPr>
-                  <w:t>${checkType}!</w:t>
+                  <w:t>${checkType}</w:t>
                 </w:r>
               </w:p>
             </w:tc>
@@ -2041,7 +2041,7 @@
                       <w:rFonts w:hint="fareast"/>
                       <w:b/>
                     </w:rPr>
-                    <w:t>${scanDirectoryNum}!</w:t>
+                    <w:t>${scanDirectoryNum}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
@@ -2074,7 +2074,7 @@
                     <w:rPr>
                       <w:rFonts w:hint="fareast"/>
                     </w:rPr>
-                    <w:t>${findVirusesNum}!</w:t>
+                    <w:t>${findVirusesNum}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
@@ -2107,7 +2107,7 @@
                     <w:rPr>
                       <w:rFonts w:hint="fareast"/>
                     </w:rPr>
-                    <w:t>${secureFileNum}!</w:t>
+                    <w:t>${secureFileNum}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
@@ -2438,7 +2438,7 @@
                       <w:rFonts w:hint="fareast"/>
                       <wx:font wx:val="宋体"/>
                     </w:rPr>
-                    <w:t>${viruses.name}!</w:t>
+                    <w:t>${viruses.name}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
@@ -2451,7 +2451,7 @@
                     <w:rPr>
                       <w:rFonts w:hint="fareast"/>
                     </w:rPr>
-                    <w:t>${viruses.fileName}!</w:t>
+                    <w:t>${viruses.fileName}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
@@ -2465,7 +2465,7 @@
                       <w:rFonts w:hint="fareast"/>
                       <wx:font wx:val="宋体"/>
                     </w:rPr>
-                    <w:t>${viruses.result}!</w:t>
+                    <w:t>${viruses.suggestion}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>

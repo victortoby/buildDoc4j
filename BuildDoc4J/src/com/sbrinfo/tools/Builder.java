@@ -2,8 +2,6 @@ package com.sbrinfo.tools;
 
 import org.dom4j.Document;
 
-import com.sbrinfo.bean.ResultInfo;
-
 /**
  * 
 * Filename: Builder.java  
@@ -20,11 +18,11 @@ import com.sbrinfo.bean.ResultInfo;
  */
 public interface Builder {
 	//解析XML
-	ResultInfo parserXML(String srcXMLPath);
+	Document parserXML(String srcXMLPath);
 	//将解析后的XML对象放到DOC模版中
 	Document buliderXML(Document parsed, String docTemplate);
 	//生成DOC文件
-	void createDoc(Document builded, String targetXMLPath);
+	void createDoc(Document builded, String targetXMLPath) throws Exception;
 	//关闭文件
 	void closeFile();
 	
